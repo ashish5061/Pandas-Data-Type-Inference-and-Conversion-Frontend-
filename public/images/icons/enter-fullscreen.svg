@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:transparent">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>264BBB23-2602-469D-A41A-AFE150C29E34</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M16,10 L16,15 C16,15.6 15.6,16 15,16 L10,16 L10,14 L14,14 L14,10 L16,10 L16,10 Z M2,10 L2,14 L6,14 L6,16 L1,16 C0.4,16 4.03896783e-28,15.6 4.03896783e-28,15 L4.03896783e-28,15 L4.03896783e-28,10 L4.03896783e-28,10 L2,10 Z M15,-2.0206059e-14 C15.6,-2.0206059e-14 16,0.4 16,1 L16,1 L16,6 L16,6 L14,6 L14,2 L10,2 L10,-2.0206059e-14 Z M6,-2.0206059e-14 L6,2 L2,2 L2,6 L4.03896783e-28,6 L4.03896783e-28,6 L4.03896783e-28,1 C4.03896783e-28,0.4 0.4,-2.0206059e-14 1,-2.0206059e-14 L6,-2.0206059e-14 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-426.000000, -521.000000)" id="Zoom-Out-Copy">
+            <g transform="translate(398.000000, 493.000000)">
+                <g id="Icons/angle-down-Copy-75" transform="translate(28.000000, 28.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="field" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="ColorMask" mask="url(#mask-2)" fill="#A7A9BC">
+                        <g id="0/Color-Lexicon/Main-Secondary-Light28%Des5%">
+                            <rect id="Mask" x="0" y="0" width="16" height="16"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

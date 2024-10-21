@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DB087F15-2149-4480-8289-9336D79B06CC</title>
+    <defs>
+        <path d="M5,0 C5.55227812,0 6,0.447721875 6,1 C6,1.55227812 5.55227812,2 5,2 L5,2 L2,2 L2,14 L14,14 L14,11 C14,10.4477219 14.4477219,10 15,10 C15.5522781,10 16,10.4477219 16,11 L16,11 L16,14 C16,15.1028125 15.1028125,16 14,16 L14,16 L2,16 C0.8972,16 0,15.1028125 0,14 L0,14 L0,2 C0,0.8972 0.8972,0 2,0 L2,0 Z M15,0 C15.5522781,0 16,0.447709375 16,1 L16,1 L16,6 C16,6.55229063 15.5522781,7 15,7 C14.4477219,7 14,6.55229063 14,6 L14,6 L14,3.4142 L9.70709375,7.70710625 C9.51184063,7.902375 9.25592188,8 9,8 C8.74407813,8 8.48815938,7.902375 8.29290625,7.70710937 C7.90237188,7.316575 7.90237188,6.68342812 8.29290625,6.29289375 L8.29290625,6.29289375 L12.5858,2 L10,2 C9.44772188,2 9,1.55229062 9,1 C9,0.447709375 9.44772188,0 10,0 L10,0 Z" id="path-1"></path>
+    </defs>
+    <g id="↳-Order-Fulfilment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Order-Fulfilment---Invoice-Page" transform="translate(-317.000000, -72.000000)">
+            <g id="shortcut" transform="translate(317.000000, 72.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="ColorMask" mask="url(#mask-2)" fill="#6B6C7E">
+                    <g id="0/Color-Lexicon/Main-Secondary-Light28%Des5%">
+                        <rect id="Mask" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

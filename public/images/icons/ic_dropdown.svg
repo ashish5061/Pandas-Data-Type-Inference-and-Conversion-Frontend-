@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="16px" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,14.5449265 L0,1.46376824 C0,-0.090530955 0.810025695,-0.463063979 1.80078008,0.636310313 L7.69259777,7.17685638 C8.10246741,7.63168206 8.10246741,8.37684733 7.69259777,8.83286374 L1.80078008,15.3734429 C0.81111536,16.4717257 8.84861055e-16,16.0991596 8.84861055e-16,14.5448935 L0,14.5449265 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/play" transform="translate(-4.000000, 0.000000)">
+            <g id="play" transform="translate(4.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="0/Color-Lexicon/Main-Secondary-Light28%Des5%" mask="url(#mask-2)" fill="#6B6C7E">
+                    <g transform="translate(-4.000000, 0.000000)" id="Mask">
+                        <rect x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

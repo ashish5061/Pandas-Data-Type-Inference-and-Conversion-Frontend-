@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>078A37B1-64E0-4E4A-9CD7-8EDD9C5563AF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.890625,13.7434313 C9.9375,16.7365313 6.0625,16.7678072 5.109375,13.7434313 C7,13.9842554 9,13.9842554 10.890625,13.7434313 Z M7,0.973496549 C7,-0.340089682 9,-0.30881382 9,0.973496549 C9,0.973496549 14,0.973496549 14,9.98094499 C14.9090909,10.8907883 14.9917355,10.9735013 14.9992487,10.9810207 C15,13.7340485 1,13.6714968 1,10.9817726 C1,10.9817726 1,10.9817726 1.7513148,10.229836 L2,9.98094499 C2,1.23085222 6.71836735,0.980849568 6.98798834,0.973706635 Z M8,2.97515176 C4.23076923,2.97515176 4.01331361,9.79576043 4.00076809,10.5827537 L4,10.6565036 C7,10.9817726 9,10.9817726 12,10.6565036 C12,10.6565036 12,2.97515176 8,2.97515176 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav/icons/logout-copy-nav/icons/notification">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Notification" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

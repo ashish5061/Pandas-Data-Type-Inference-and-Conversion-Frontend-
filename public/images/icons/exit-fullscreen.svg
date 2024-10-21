@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>EE84A719-04D0-435A-B1E8-411825663025</title>
+    <desc>Created with sketchtool.</desc>
+    <g>
+        <defs>
+            <path d="M16,10 L16,12 L12,12 L12,16 L10,16 L10,16 L10,11 C10,10.4 10.4,10 11,10 L16,10 Z M5,10 C5.6,10 6,10.4 6,11 L6,11 L6,16 L6,16 L4,16 L4,12 L-1.9095836e-12,12 L-1.9095836e-12,10 Z M12,-6.25943741e-13 L12,4 L16,4 L16,6 L11,6 C10.4,6 10,5.6 10,5 L10,5 L10,-6.25943741e-13 L10,-6.25943741e-13 L12,-6.25943741e-13 Z M6,-6.25943741e-13 L6,5 C6,5.6 5.6,6 5,6 L-1.9095836e-12,6 L-1.9095836e-12,4 L4,4 L4,-6.25943741e-13 L6,-6.25943741e-13 L6,-6.25943741e-13 Z"
+                  id="path-1"></path>
+        </defs>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="field" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="ColorMask-0/Color-Lexicon/Main-Secondary-Light28%Des5%" mask="url(#mask-2)" fill="#A7A9BC">
+                    <rect id="Mask" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

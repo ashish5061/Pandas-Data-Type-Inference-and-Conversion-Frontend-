@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>D4703B36-6224-4368-B8BA-D16CCFEAC065</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="32"></rect>
+        <path d="M14,0 C15.103125,0 16,0.67265625 16,1.5 L16,1.5 L16,10.5 C16,11.3273438 15.103125,12 14,12 L14,12 L2,12 C0.896875,12 0,11.3273438 0,10.5 L0,10.5 L0,1.5 C0,0.67265625 0.896875,0 2,0 L2,0 Z M8.15283203,2 L5.81103516,2 C5.30078125,2 5,2.31152344 5,2.84326172 L5,9.00927734 C5,9.54101562 5.30078125,9.85253906 5.81103516,9.85253906 C6.32128906,9.85253906 6.62207031,9.54101562 6.62207031,9.00927734 L6.62207031,7.30664062 L8.07226562,7.30664062 C9.70507812,7.30664062 10.8383789,6.24316406 10.8383789,4.65332031 C10.8383789,3.05810547 9.74267578,2 8.15283203,2 Z M7.72314453,3.28369141 C8.65234375,3.28369141 9.18945312,3.77783203 9.18945312,4.65869141 C9.18945312,5.54492188 8.64697266,6.0390625 7.71777344,6.0390625 L6.62207031,6.0390625 L6.62207031,3.28369141 L7.72314453,3.28369141 Z" id="path-3"></path>
+    </defs>
+    <g id="Order-Fulfilment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Order-Fulfilment---Accordian-Expand" transform="translate(-981.000000, -407.000000)">
+            <g id="Group-12" transform="translate(64.000000, 282.000000)">
+                <g id="Table/Inline/Default-Copy-2" transform="translate(0.000000, 107.000000)">
+                    <g id="promotion-icon" transform="translate(909.000000, 8.000000)">
+                        <g id="Shape">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="mask"></g>
+                        </g>
+                        <g id="Icon" transform="translate(8.000000, 10.000000)">
+                            <g id="wiki">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                <g id="ColorMask" mask="url(#mask-4)">
+                                    <g transform="translate(0.000000, -2.000000)" id="0/Color-Lexicon/Main-Secondary-Light28%Des5%">
+                                        <g>
+                                            <rect id="Mask" fill="#6B6C7E" x="0" y="0" width="16" height="16"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
