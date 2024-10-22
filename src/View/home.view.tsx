@@ -10,11 +10,11 @@ import {
   Text,
 } from "@chakra-ui/react";
 import api from "../api";
-import CustomTable from "../components/customTable.component";
 import { useToast } from "@chakra-ui/react";
 import FileUploadDialog from "../components/form/fileUploadDialog.component";
 import CustomDialogWithSelect from "../components/form/customDialogWithSelect";
 import { FiUploadCloud } from "react-icons/fi";
+import Pagination from "../components/pagination";
 
 interface Data {
   data: Record<string, any>[]; // Array of records (key-value pairs)
@@ -178,6 +178,8 @@ const HomeComponent: React.FC = () => {
             </Text>
           </Box>
         )}
+
+        
         <Flex justify="space-between" mb={5} width="100%">
           <Heading as="h1" size="lg" p={5}>
             CSV/Excel
@@ -196,7 +198,6 @@ const HomeComponent: React.FC = () => {
             </Button>
           </Box>
         </Flex>
-        <CustomTable data={data} />
       </Box>
       <FileUploadDialog
         isOpen={isImportDialogOpen}
@@ -213,27 +214,28 @@ const HomeComponent: React.FC = () => {
         onPrimaryAction={handlePrimaryAction}
         options={rowsOption}
       />
-      {!loading && !data?.data?.length && (
-        <Flex
-          direction="column"
-          justify="center"
-          align="center"
-          mt={6}
-          color="gray.600"
-        >
-          <Icon as={FiUploadCloud} w={20} h={20} mb={4} color="gray.400" />{" "}
-          {/* Cloud upload icon */}
-          <Text fontSize="2xl" fontWeight="bold" mb={2} textAlign="center">
-            No Data Available
-          </Text>
-          <Text fontSize="lg" color="gray.600" textAlign="center" mb={4}>
-            We currently have no data to display in this section.
-          </Text>
-          <Text fontSize="lg" color="gray.500" textAlign="center">
-            To proceed, please upload the necessary data.
-          </Text>
-        </Flex>
-      )}
+      {data.data.length > 0 ? (
+          <Pagination data={data} />
+        ) : (
+          <Flex
+            direction="column"
+            justify="center"
+            align="center"
+            mt={6}
+            color="gray.600"
+          >
+            <Icon as={FiUploadCloud} w={20} h={20} mb={4} color="gray.400" />
+            <Text fontSize="2xl" fontWeight="bold" mb={2} textAlign="center">
+              No Data Available
+            </Text>
+            <Text fontSize="lg" color="gray.600" textAlign="center" mb={4}>
+              We currently have no data to display in this section.
+            </Text>
+            <Text fontSize="lg" color="gray.500" textAlign="center">
+              To proceed, please upload the necessary data.
+            </Text>
+          </Flex>
+        )}
     </>
   );
 };

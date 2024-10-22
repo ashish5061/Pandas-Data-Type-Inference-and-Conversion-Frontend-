@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Data Import and Pagination Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application provides functionality for uploading CSV or Excel files, processing the uploaded data, and displaying it in a paginated format. It utilizes Chakra UI for styling and user interface components, making the application both visually appealing and user-friendly.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **File Upload**: Users can upload CSV or Excel files for data processing.
+- **Data Type Override**: After uploading, users can override the data types of specific columns.
+- **Pagination**: The uploaded data is displayed in a paginated format for easy navigation.
+- **Loading Indicator**: Shows a spinner while data is being processed.
+- **Error Handling**: Provides feedback for errors during file upload and data processing.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: A JavaScript library for building user interfaces.
+- **Chakra UI**: A modular and accessible component library for React.
+- **TypeScript**: A typed superset of JavaScript for building robust applications.
+- **Axios**: A promise-based HTTP client for making API requests.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+To set up the project locally, follow these steps:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. **Clone the repository:**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   ```bash
+   git clone https://github.com/ashish5061/Pandas-Data-Type-Inference-and-Conversion-Frontend-.git
+   cd Pandas-Data-Type-Inference-and-Conversion-Frontend-
+   npm install or yarn start
+   Open your browser and go to http://localhost:5173/ to see the application running.
