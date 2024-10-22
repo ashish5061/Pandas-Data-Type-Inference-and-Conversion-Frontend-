@@ -14,6 +14,7 @@ import {
   Flex,
   Divider,
 } from "@chakra-ui/react";
+import { dataTypeMapper } from "../constants/constants";
 
 // Define the type for the data prop
 interface PaginationProps {
@@ -45,7 +46,11 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
   const renderPagination = () => {
     const pages = [];
     for (let i = 1; i <= totalPages; i++) {
-      if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+      if (
+        i === 1 ||
+        i === totalPages ||
+        (i >= currentPage - 1 && i <= currentPage + 1)
+      ) {
         pages.push(
           <Button
             key={i}
@@ -60,7 +65,11 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
           </Button>
         );
       } else if (i === currentPage - 2 || i === currentPage + 2) {
-        pages.push(<Text key={`ellipsis-${i}`} mx={2}>...</Text>);
+        pages.push(
+          <Text key={`ellipsis-${i}`} mx={2}>
+            ...
+          </Text>
+        );
       }
     }
     return pages;
@@ -72,11 +81,17 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
         <Thead>
           <Tr>
             {/* Serial Number Header */}
-            <Th textAlign="center" fontWeight="bold">SN</Th>
+            <Th textAlign="center" fontWeight="bold">
+              SN
+            </Th>
             {data?.data?.length > 0 &&
               Object.keys(data.data[0]).map((key) => (
                 <Th key={key} textAlign="center" fontWeight="bold">
-                  {key}
+                  {key} (
+                  {dataTypeMapper[data.data_types[key]]
+                    ? dataTypeMapper[data.data_types[key]]
+                    : data.data_types[key]}
+                  )
                 </Th>
               ))}
           </Tr>
@@ -108,7 +123,7 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
             colorScheme="blue"
             size="sm"
             mx={1} // Margin between buttons
-            p={2}  // Padding inside buttons
+            p={2} // Padding inside buttons
           >
             First
           </Button>
@@ -119,7 +134,7 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
             colorScheme="blue"
             size="sm"
             mx={1} // Margin between buttons
-            p={2}  // Padding inside buttons
+            p={2} // Padding inside buttons
           >
             Previous
           </Button>
@@ -134,7 +149,7 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
             colorScheme="blue"
             size="sm"
             mx={1} // Margin between buttons
-            p={2}  // Padding inside buttons
+            p={2} // Padding inside buttons
           >
             Next
           </Button>
@@ -145,7 +160,7 @@ const Pagination: React.FC<PaginationProps> = ({ data }) => {
             colorScheme="blue"
             size="sm"
             mx={1} // Margin between buttons
-            p={2}  // Padding inside buttons
+            p={2} // Padding inside buttons
           >
             Last
           </Button>

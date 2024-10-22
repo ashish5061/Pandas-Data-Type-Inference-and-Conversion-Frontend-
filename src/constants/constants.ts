@@ -18,3 +18,10 @@ export const dataTypeOptions = [
     { value: "date", label: "Date" },
     { value: "datetime", label: "Date Time" },
   ];
+
+export const dataTypeMapper:any = { 
+"datetime64[ns]": "Date",
+"string": "Text",
+"float64": "number",
+"object": "Text"
+}

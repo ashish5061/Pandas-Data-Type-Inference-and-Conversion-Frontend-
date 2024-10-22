@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import {
   Box,
@@ -116,7 +116,7 @@ const HomeComponent: React.FC = () => {
         // Assuming the backend returns the processed data
         setData(response.data);
         const rowOptions = Object.keys(response.data.data_types).map(
-          (key, index) => ({
+          (key) => ({
             value: key,
             label: `${key}`, // Creating a label with the name and type
           })
