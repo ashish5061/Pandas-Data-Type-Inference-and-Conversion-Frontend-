@@ -27,6 +27,5 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/ashish5061/Pandas-Data-Type-Inference-and-Conversion-Frontend-.git
    cd Pandas-Data-Type-Inference-and-Conversion-Frontend-
-   npm install or yarn start
-   npm run dev
+   npm install
    Open your browser and go to http://localhost:5173/ to see the application running.
