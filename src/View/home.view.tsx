@@ -48,33 +48,44 @@ const HomeComponent: React.FC = () => {
   const onCloseOverRideDataTypesDialog = () =>
     setIsOverRideDataTypesDialogOpe(false);
 
-  const handlePrimaryAction = async (data: any) => {
-    await api
-      .post("/api/override", {
+  const handlePrimaryAction = async (data: any): Promise<boolean> => {
+    setLoading(true);
+    try {
+      const response = await api.post("/api/override", {
         column: data.CSVRow.value,
         dataType: data.DataRow.value,
         filePath: filePath,
-      })
-      .then(
-        (response) => {
-          setFilePath(response.data.file_path);
-          // Assuming the backend returns the processed data
-          setData(response.data);
-          onCloseOverRideDataTypesDialog();
-        },
-        (error) => {
-          toast({
-            title: "Something went wrong",
-            description:
-              "There was an issue creating your account. Please try again.",
-            status: "error",
-            duration: 3000, // Auto close after 6 seconds
-            isClosable: true,
-          });
-          console.log(error);
-        }
-      );
+      });
+  
+      // Success handling
+      toast({
+        title: "File uploaded.",
+        description: "Data Types have been overridden.",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+      
+      setFilePath(response.data.file_path); // Update file path
+      setData(response.data); // Assuming the backend returns the processed data
+      onCloseOverRideDataTypesDialog(); // Close the dialog
+      return true; // Indicate success
+    } catch (error) {
+      // Error handling
+      toast({
+        title: "Something went wrong",
+        description: "There was an issue creating your account. Please try again.",
+        status: "error",
+        duration: 3000, // Auto close after 3 seconds
+        isClosable: true,
+      });
+      
+      return false; // Indicate failure
+    } finally {
+      setLoading(false); // Ensure loading is set to false in both success and error cases
+    }
   };
+  
 
   const handleImport = async (event: React.ChangeEvent<HTMLInputElement>) => {
     setLoading(true);

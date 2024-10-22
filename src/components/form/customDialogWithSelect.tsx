@@ -66,14 +66,17 @@ const CustomDialogWithSelect: React.FC<CustomDialogProps> = ({
         borderColor: errors.CSVRow ? "red" : "blue",
       },
     }),
-  };
+  }; 
 
-  const onSubmit = (data: FormValues) => {
+  const onSubmit = async (data: FormValues) => {
     if (onPrimaryAction) {
-      onPrimaryAction(data); // Call the primary action with selected data
-      reset()
+      const isSuccess: any = await onPrimaryAction(data); // Call the primary action with selected data
+      if (isSuccess) {
+        reset(); // Reset only if successful
+      }
     }
   };
+  
 
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
